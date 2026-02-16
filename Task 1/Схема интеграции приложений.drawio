@@ -1,0 +1,194 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
+  <diagram name="Страница-1" id="yVmU8hGhtdjtXdEQH0qP">
+    <mxGraphModel dx="2404" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="400.75" />
+            </Array>
+            <mxPoint x="430" y="388.75" as="sourcePoint" />
+            <mxPoint x="600" y="401.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-2" connectable="0" parent="_tZcmoUtysCC9YyA1wNx-1" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" value="«Создать депозит», синхронная интеграция" vertex="1">
+          <mxGeometry relative="1" x="0.0101" y="-1" as="geometry">
+            <mxPoint x="8" y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-3" edge="1" parent="1" source="_tZcmoUtysCC9YyA1wNx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_tZcmoUtysCC9YyA1wNx-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="385" />
+              <mxPoint x="760" y="360" />
+              <mxPoint x="940" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-4" connectable="0" parent="_tZcmoUtysCC9YyA1wNx-3" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" value="«Заявка на кредит», раз в сутки" vertex="1">
+          <mxGeometry relative="1" x="-0.086" y="4" as="geometry">
+            <mxPoint x="70" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-5" edge="1" parent="1" source="_tZcmoUtysCC9YyA1wNx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_tZcmoUtysCC9YyA1wNx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-6" connectable="0" parent="_tZcmoUtysCC9YyA1wNx-5" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];" value="«Данные клиента», API)" vertex="1">
+          <mxGeometry relative="1" x="0.085" y="-2" as="geometry">
+            <mxPoint x="87" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-7" edge="1" parent="1" source="_tZcmoUtysCC9YyA1wNx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_tZcmoUtysCC9YyA1wNx-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-8" connectable="0" parent="_tZcmoUtysCC9YyA1wNx-7" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" value="«Уведомление о ставке», синхронная" vertex="1">
+          <mxGeometry relative="1" x="-0.2346" y="-3" as="geometry">
+            <mxPoint x="48" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-9" parent="1" style="whiteSpace=wrap;align=center;" value="АБС (Oracle + Delphi)." vertex="1">
+          <mxGeometry height="60" width="110" x="600" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-10" edge="1" parent="1" source="_tZcmoUtysCC9YyA1wNx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_tZcmoUtysCC9YyA1wNx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-11" connectable="0" parent="_tZcmoUtysCC9YyA1wNx-10" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" value="«Предварительная заявка», через систему кол‑центра" vertex="1">
+          <mxGeometry relative="1" x="0.1801" as="geometry">
+            <mxPoint x="-55" y="-114" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-12" parent="1" style="whiteSpace=wrap;" value="Cистема кол‑центра (React.js + Spring Boot + PostgreSQL)." vertex="1">
+          <mxGeometry height="100" width="110" x="600" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-13" edge="1" parent="1" source="_tZcmoUtysCC9YyA1wNx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.648;exitY=0.093;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1025" y="345" />
+              <mxPoint x="1025" y="260" />
+              <mxPoint x="755" y="260" />
+              <mxPoint x="755" y="355" />
+              <mxPoint x="670" y="355" />
+            </Array>
+            <mxPoint x="1025" y="335" as="sourcePoint" />
+            <mxPoint x="670" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-14" connectable="0" parent="_tZcmoUtysCC9YyA1wNx-13" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" value="«Одобрение кредита», раз в сутки" vertex="1">
+          <mxGeometry relative="1" x="-0.2143" y="-1" as="geometry">
+            <mxPoint x="-19" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-15" parent="1" style="whiteSpace=wrap;align=center;" value="Кредитный конвейер (Camunda + Oracle)." vertex="1">
+          <mxGeometry height="50" width="140" x="940" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-16" edge="1" parent="1" source="_tZcmoUtysCC9YyA1wNx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_tZcmoUtysCC9YyA1wNx-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-17" connectable="0" parent="_tZcmoUtysCC9YyA1wNx-16" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" value="«Запрос скоринга», API" vertex="1">
+          <mxGeometry relative="1" x="-0.4049" y="1" as="geometry">
+            <mxPoint x="17" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-18" edge="1" parent="1" source="_tZcmoUtysCC9YyA1wNx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="_tZcmoUtysCC9YyA1wNx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-19" connectable="0" parent="_tZcmoUtysCC9YyA1wNx-18" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" value="«Рейтинг заёмщика», API" vertex="1">
+          <mxGeometry relative="1" x="0.1975" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-20" parent="1" style="whiteSpace=wrap;" value="Система скоринга (Python/Flask + PostgreSQL)." vertex="1">
+          <mxGeometry height="90" width="140" x="940" y="527.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-21" parent="1" style="whiteSpace=wrap;" value="Бюро кредитных историй (внешняя API)." vertex="1">
+          <mxGeometry height="80" width="140" x="1190" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-22" edge="1" parent="1" source="_tZcmoUtysCC9YyA1wNx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.424;entryY=0.96;entryDx=0;entryDy=0;entryPerimeter=0;" target="_tZcmoUtysCC9YyA1wNx-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="550" />
+              <mxPoint x="650" y="520" />
+              <mxPoint x="647" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-23" connectable="0" parent="_tZcmoUtysCC9YyA1wNx-22" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" value="«Статус заявки», через API" vertex="1">
+          <mxGeometry relative="1" x="-0.1563" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-24" parent="1" style="whiteSpace=wrap;" value="Партнёрский кол‑центр (внешняя система)." vertex="1">
+          <mxGeometry height="60" width="130" x="590" y="552.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-25" edge="1" parent="1" source="_tZcmoUtysCC9YyA1wNx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="_tZcmoUtysCC9YyA1wNx-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="598" />
+            </Array>
+            <mxPoint x="430" y="665" as="sourcePoint" />
+            <mxPoint x="550" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-26" connectable="0" parent="_tZcmoUtysCC9YyA1wNx-25" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" value="«Заявка на депозит», передача в CRM" vertex="1">
+          <mxGeometry relative="1" x="0.104" y="-1" as="geometry">
+            <mxPoint x="13" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-27" parent="1" style="whiteSpace=wrap;" value="Сайт банка (PHP + React.js)." vertex="1">
+          <mxGeometry height="75" width="160" x="280" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-28" parent="1" style="whiteSpace=wrap;" value="СМС‑шлюз." vertex="1">
+          <mxGeometry height="65" width="120" x="750" y="552.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-29" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;whiteSpace=wrap;" value="Клиент (онлайн/в отделении)." vertex="1">
+          <mxGeometry height="60" width="30" x="10" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-33" edge="1" parent="1" source="_tZcmoUtysCC9YyA1wNx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_tZcmoUtysCC9YyA1wNx-35" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="50" y="419" as="sourcePoint" />
+            <mxPoint x="360" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-34" connectable="0" parent="_tZcmoUtysCC9YyA1wNx-33" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" value="«Заявка на депозит»" vertex="1">
+          <mxGeometry relative="1" x="-0.233" y="-2" as="geometry">
+            <mxPoint x="12" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9YQHyvpd48k43dP0-qDB-8" edge="1" parent="1" source="_tZcmoUtysCC9YyA1wNx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="9YQHyvpd48k43dP0-qDB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZcmoUtysCC9YyA1wNx-35" parent="1" style="html=1;whiteSpace=wrap;fontColor=default;labelBackgroundColor=default;" value="&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre;&quot;&gt;Интернет‑банк.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="260" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="9YQHyvpd48k43dP0-qDB-1" parent="1" style="text;fontSize=8;spacing=0;whiteSpace=wrap;" value="Канал: HTTPS (веб‑интерфейс).&#xa;Периодичность: по запросу клиента.&#xa;Данные:&#xa;Заявка на депозит (ФИО, сумма, срок, реквизиты).&#xa;Согласие на обработку персональных данных.&#xa;Тип обмена: API (REST)." vertex="1">
+          <mxGeometry height="77.5" width="120" x="80" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="9YQHyvpd48k43dP0-qDB-2" parent="1" style="text;whiteSpace=wrap;fontSize=6;" value="Канал: API (HTTP/HTTPS).&#xa;Периодичность: в реальном времени.&#xa;Данные:&#xa;Заявка на депозит (с сайта/интернет‑банка).&#xa;Контактный телефон клиента.&#xa;Примечание: &#xa;для сайта — предварительная валидация &#xa;данных перед передачей." vertex="1">
+          <mxGeometry height="141.25" width="130" x="470" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="9YQHyvpd48k43dP0-qDB-5" parent="1" style="text;whiteSpace=wrap;fontSize=6;" value="Канал: API (SOAP/REST).&#xa;Периодичность:&#xa;В MVP (6 мес.): вручную (оператор отправляет заявку через интерфейс кол‑центра).&#xa;Финальное состояние (1 год): автоматически при получении заявки.&#xa;Данные:&#xa;Заполненная заявка на депозит.Идентификатор клиента (из CRM кол‑центра).&#xa;Формат: JSON/XML." vertex="1">
+          <mxGeometry height="40" width="110" x="660" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9YQHyvpd48k43dP0-qDB-6" parent="1" style="text;whiteSpace=wrap;fontSize=6;" value="Канал: API (HTTPS).&#xa;Периодичность: сразу после &#xa;изменения статуса заявки.&#xa;Данные:&#xa;Текст уведомления &#xa;Номер телефона клиента.&#xa;Формат: JSON." vertex="1">
+          <mxGeometry height="60" width="140" x="730" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="9YQHyvpd48k43dP0-qDB-7" parent="1" style="fontColor=default;labelBackgroundColor=default;whiteSpace=wrap;" value="Система аутентификации &#xa;(IDM)" vertex="1">
+          <mxGeometry height="60" width="170" x="260" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9YQHyvpd48k43dP0-qDB-9" parent="1" style="text;whiteSpace=wrap;fontSize=6;" value="Канал: API (OAuth 2.0).&#xa;Периодичность: при входе клиента.&#xa;Данные:&#xa;Токены доступа.Проверка прав пользователя.&#xa;Формат: JWT." vertex="1">
+          <mxGeometry height="50" width="140" x="260" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="9YQHyvpd48k43dP0-qDB-10" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin: 8px 0px; font: 400 16px / 28px -apple-system, &amp;quot;system-ui&amp;quot;, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; color: rgba(0, 0, 0, 0.9); letter-spacing: -0.32px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;font-weight: 700;&quot;&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;Примечание:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;margin: 16px 0px 0px; padding-left: 24px; color: rgba(0, 0, 0, 0.9); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.32px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;margin: 8px 0px;&quot;&gt;&lt;p style=&quot;margin: 8px 0px; font: 400 16px / 28px -apple-system, &amp;quot;system-ui&amp;quot;, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif;&quot;&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;Для&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;обеспечения&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;безопасности&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;все&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;API‑интеграции&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;должны&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;использовать&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;TLS&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;1.3&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;и&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;OAuth&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;2.0.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 8px 0px;&quot;&gt;&lt;p style=&quot;margin: 8px 0px; font: 400 16px / 28px -apple-system, &amp;quot;system-ui&amp;quot;, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif;&quot;&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;SFTP‑выгрузки&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;подписываются&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;электронной&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;подписью&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;(ГОСТ&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Р&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;34.10-2012).&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 8px 0px;&quot;&gt;&lt;p style=&quot;margin: 8px 0px; font: 400 16px / 28px -apple-system, &amp;quot;system-ui&amp;quot;, Arial, Helvetica, &amp;quot;Arial Unicode MS&amp;quot;, sans-serif;&quot;&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;Логирование&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;всех&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;операций&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;в&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;АБС&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;для&lt;/span&gt;&lt;span class=&quot;Markdown-Word&quot; style=&quot;animation: 0.3s ease-out 0s 1 normal forwards running markdown-word-fade;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;аудита.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="210" width="560" x="20" y="660" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
